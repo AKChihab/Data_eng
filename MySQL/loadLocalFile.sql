@@ -1,0 +1,5 @@
+USE social_app;
+LOAD DATA LOCAL INFILE '/repo/MySQL/data/users.csv'
+INTO TABLE users
+FIELDS TERMINATED BY ','
+IGNORE 1 ROWS;

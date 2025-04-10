@@ -7,8 +7,10 @@ requires-python = ">=3.12"
 dependencies = [
     "beautifulsoup4>=4.13.3",
     "celery>=5.4.0",
+    "dbt-mysql>=1.7.0",
     "flask>=3.1.0",
     "kombu>=5.5.1",
+    "mysql-connector-python>=9.2.0",
     "pandas>=2.2.3",
     "python-dotenv>=1.1.0",
     "requests>=2.32.3",
