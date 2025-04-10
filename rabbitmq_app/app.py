@@ -52,7 +52,7 @@ def send_email():
 
 @shared_task()
 def async_send_email(email, subject, body):
-    # simulate a very costly operation of sending an email for 5 seconds
+    # simulate a very costly operation of xsending an email for 5 seconds
     from time import sleep
     sleep(5)
     return {"success": True, "email": email, "subject": subject, "body": body}
