@@ -1,0 +1,71 @@
+[0m17:39:49.673518 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f5b69c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f73d0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f73cd10>]}
+
+
+============================== 17:39:49.682658 | 8c1ba5a3-6920-4f68-96c2-1f8aadd355ce ==============================
+[0m17:39:49.682658 [info ] [MainThread]: Running with dbt=1.7.19
+[0m17:39:49.683434 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/akaoui/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m17:40:22.256149 [debug] [MainThread]: Starter project path: /Users/akaoui/Desktop/Github/Data_eng/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:40:22.271031 [info ] [MainThread]: 
+Your new dbt project "dbtt_mysql" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:40:22.271805 [info ] [MainThread]: Setting up your profile.
+[0m17:40:25.535422 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 35.94506, "process_user_time": 2.613731, "process_kernel_time": 0.324526, "process_mem_max_rss": "101806080", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:40:25.536233 [debug] [MainThread]: Command `dbt init` succeeded at 17:40:25.535991 after 35.95 seconds
+[0m17:40:25.536868 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f73d190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ea8c380>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f587740>]}
+[0m17:40:25.537465 [debug] [MainThread]: Flushing usage events
+[0m17:42:30.393551 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108cc9be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d1d220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108d1cf80>]}
+
+
+============================== 17:42:30.402354 | 80d55637-260a-414e-ba61-1e261e09326d ==============================
+[0m17:42:30.402354 [info ] [MainThread]: Running with dbt=1.7.19
+[0m17:42:30.403191 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/akaoui/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt init dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m17:42:37.918403 [debug] [MainThread]: Starter project path: /Users/akaoui/Desktop/Github/Data_eng/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:42:37.928700 [info ] [MainThread]: 
+Your new dbt project "exit" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:42:37.929332 [info ] [MainThread]: Setting up your profile.
+[0m17:42:40.629556 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 10.312141, "process_user_time": 2.546494, "process_kernel_time": 0.2948, "process_mem_max_rss": "101376000", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:42:40.630823 [debug] [MainThread]: Command `dbt init` succeeded at 17:42:40.630560 after 10.31 seconds
+[0m17:42:40.632033 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108b69520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e51a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108772480>]}
+[0m17:42:40.632917 [debug] [MainThread]: Flushing usage events
+[0m18:08:30.110516 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10831d460>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107f2cd40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1083410d0>]}
+
+
+============================== 18:08:30.120296 | a52de319-8c43-4b6a-a9df-caeed401e335 ==============================
+[0m18:08:30.120296 [info ] [MainThread]: Running with dbt=1.7.19
+[0m18:08:30.121089 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/Users/akaoui/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run', 'send_anonymous_usage_stats': 'True'}
+[0m18:08:30.121839 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/akaoui/Desktop/Github/Data_eng/MySQL/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m18:08:30.125061 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 0.093775354, "process_user_time": 2.488302, "process_kernel_time": 0.30238, "process_mem_max_rss": "98811904", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m18:08:30.125793 [debug] [MainThread]: Command `dbt run` failed at 18:08:30.125591 after 0.09 seconds
+[0m18:08:30.126300 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108004830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107fbb6e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107ed5400>]}
+[0m18:08:30.126779 [debug] [MainThread]: Flushing usage events

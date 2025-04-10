@@ -24,14 +24,11 @@ CREATE TABLE IF NOT EXISTS followers (
 FOREIGN KEY (followed_id) REFERENCES users(id)
 );
 
-CREATE USER IF NOT EXISTS 'appuser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'securepassword';
+CREATE USER IF NOT EXISTS 'appuser'@'localhost' IDENTIFIED BY 'securepassword';
 GRANT SELECT, INSERT, UPDATE ON social_app.* TO 'appuser'@'localhost';
 FLUSH PRIVILEGES;
 
-DROP INDEX IF EXISTS idx_user_id ON posts;
 CREATE INDEX idx_user_id ON posts(user_id);
 
-
-DROP INDEX IF EXISTS idx_follower ON followers;
 CREATE INDEX idx_follower ON followers(follower_id);
 
