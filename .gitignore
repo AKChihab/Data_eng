@@ -8,3 +8,7 @@ wheels/
 .git
 # Virtual environments
 .venv
+
+# Local env
+.env
+.env.*
